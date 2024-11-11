@@ -48,18 +48,18 @@ export const MiniHeaderContainer = styled.div`
   align-items: center;
   width: 100%;
   height: 55px;
-  gap: 0;
+  gap: 20px;
   outline: none;
   border: 1px solid #ddd;
   border-radius: 5px;
   opacity: 1;
 
   @media (max-width: 768px) {
-    height: 45px;
+    height: 70px;
   }
 
   @media (max-width: 480px) {
-    height: 40px;
+    height: 55px;
   }
 `;
 
@@ -97,7 +97,7 @@ export const InnerConatiner = styled.div`
   margin-top: 20px;
   gap: 20px;
   box-sizing: border-box;
-  flex-wrap: wrap;
+  /* flex-wrap: wrap; */
 
   @media (max-width: 768px) {
     flex-direction: column;
@@ -163,7 +163,7 @@ export const Select = styled.select`
   padding: 2px 20px;
   font-size: 1rem;
   height: 40px;
-  margin-right: 10px;
+  margin-right: 15px;
   border: 1px solid #ddd;
   border-radius: 8px;
   outline: none;
@@ -174,7 +174,7 @@ export const Select = styled.select`
 
   @media (max-width: 480px) {
     width: 100%;
-    margin-right: 0;
+    margin-right: 15px;
   }
 `;
 
