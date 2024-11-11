@@ -197,11 +197,11 @@ export const AddToCartButton = styled.button`
   }
 `;
 
-export const Badge = styled.div`
-  color: white;
+export const Badge = styled.img`
+  /* color: white;
   padding: 2px 8px;
   border-radius: 12px;
-  font-size: 0.8rem;
+  font-size: 0.8rem; */
 
   @media (max-width: 768px) {
     font-size: 0.7rem; /* Smaller font on mobile */

@@ -16,6 +16,7 @@ import {
   Badge,
   CardBottomContainer,
 } from "../styles/ProductCard";
+import test from "../styles/Icon.png";
 
 const ProductCard = ({ product, onAddToCart }) => {
   return (
@@ -44,7 +45,7 @@ const ProductCard = ({ product, onAddToCart }) => {
 
           {/* Add to Cart button with badge */}
           <AddToCartButton onClick={onAddToCart}>
-            <Badge>A</Badge>
+            <Badge src={test} />
             Add To Cart
           </AddToCartButton>
         </CardBottomContainer>
