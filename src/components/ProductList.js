@@ -14,6 +14,7 @@ import {
   ProductCardContainer,
   Select,
   SideBarContainer,
+  TopConatiner,
 } from "../styles/ProductList";
 
 function ProductList() {
@@ -127,10 +128,11 @@ function ProductList() {
 
   return (
     <Container>
-      <HeaderContainer>
-        <HeaderText>UMART STORE</HeaderText>
-      </HeaderContainer>
-
+      <TopConatiner>
+        <HeaderContainer>
+          <HeaderText>UMART STORE</HeaderText>
+        </HeaderContainer>
+      </TopConatiner>
       <InnerConatiner>
         <SideBarContainer>
           <FilterSidebar
